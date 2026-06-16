@@ -1,7 +1,7 @@
 learning path:
 
-01-introdution-software-enginnering : +- 4.5 jam (16 Juni)
-02-introduction-html-css-js : +- 2.5 jam (17 juni)
+01-introdution-software-enginnering: +- 4.5 jam (16 Juni)
+02-introduction-html-css-js: +- 2.5 jam (17 juni)
 03-getting-start-with-git-github: +- 1 jam (18 juni)
 04-javascript-programming-essential: +- 3 jam (18 juni)
 05-developing-backend-apps-with-node-and-express: +- 2.5 jam (19 juni) 
