@@ -45,7 +45,9 @@
 - Objects represent entities containing data and behaviors, such as a patient who can perform actions like canceling an appointment.
 - Classes are blueprints or templates for objects, defining generic attributes and methods; specific objects (instances) are created from these classes through instantiation.
 
-### Class Diagrams and Software Architecture
+##
+
+# Class Diagrams and Software Architecture
 
 - Class diagrams are structural UML diagrams that depict the relationships between classes in a system, showing attributes and methods.
 - Inheritance allows subclasses to inherit properties and methods from parent classes, enabling hierarchical relationships like doctors and specialists inheriting from medical personnel.
@@ -96,7 +98,7 @@
 
 ### Types of Application Environments
 
-- Pre-production environments include development, QA (quality assurance), and staging, each serving different roles in preparing the application for production.
+- Pre-production environments include development, QA (quality assurance),stagin and g, each serving different roles in preparing the application for production.
 - The production environment is the final, robust environment intended for general users, handling load, security, reliability, and scalability.
 
 ### Characteristics of Production Environment
