@@ -103,3 +103,32 @@
 
 - Roles include project manager/scrum master, stakeholders, architects, UX designers, developers, testers, operations engineers, product managers, and technical writers.
 - Each role contributes uniquely to the software development and delivery process.
+
+## Introduction to Programming Concepts
+
+### Identifiers: Constants and Variables
+
+- Identifiers are custom-named labels used to reference program components like stored values, methods, or classes.
+- Constants are data items with fixed values throughout the program, improving code readability and maintainability.
+- Variables are identifiers whose values can change during program execution, useful for storing user input or dynamic data.
+
+### Containers: Arrays and Vectors
+
+- Containers hold multiple elements, avoiding the need for many individual variables.
+- Arrays store a fixed number of elements of the same type in sequential order, with a size defined at declaration.
+- Vectors are dynamic containers that resize automatically as elements are added or removed, though they use more memory and have slower access times compared to arrays.
+
+### Functions in Programming
+
+- Functions are modular, reusable blocks of code designed to perform a specific task, supporting the modular programming approach.
+- They take input data, process it, and return output; functions can be built-in (standard library) or user-defined, and are defined and called in all programming languages.
+
+### Objects and Object-Oriented Programming (OOP)
+
+- Objects combine data (properties) and code (methods) into a single entity, differing from procedural programming which separates data and functions.
+- Software objects mimic real-world objects by having states (properties) and behaviors (methods), and are central to the OOP methodology.
+
+### Key Takeaways
+
+- Functions help break down complex programs into manageable parts and are fundamental across programming languages.
+- Object-oriented programming focuses on objects that encapsulate both data and behavior, enabling more organized and modular software design.

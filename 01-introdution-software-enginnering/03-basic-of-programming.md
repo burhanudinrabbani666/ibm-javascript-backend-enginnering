@@ -60,3 +60,27 @@
 - Facilitates communication among programmers and non-programmers and is concise and easy to modify.
 
 Overall, organizing code with flowcharts or pseudocode enhances software quality and development efficiency.
+
+## Branching and Looping Programming Logic
+
+### Programming Logic Types
+
+- Branching logic allows a program to make decisions and follow different instruction paths based on conditions using Boolean expressions (true/false).
+- Looping logic involves repeating a sequence of instructions until a specific condition is met, enabling repeated actions.
+
+### Boolean Expressions and Variables
+
+- Boolean expressions evaluate to either true or false and are used to control program flow.
+- Variables hold values that can change during program execution and are passed into functions or subroutines.
+
+### Branching Constructs
+
+- Common branching statements include if, if-then-else, switch, and GoTo, which direct the program to different code paths based on conditions.
+- Branching enables complex decision-making by creating multiple branches depending on parameter values.
+
+### Looping Constructs
+
+- Three basic loop types are While (condition checked before loop body), For (counter-controlled loop), and Do-while (condition checked after loop body).
+- Loops repeat instructions until a condition is met, then continue with the next part of the program.
+
+In summary, branching decides what actions to take based on conditions, while looping controls how many times actions are performed, both relying on Boolean logic and variables.
