@@ -200,3 +200,27 @@ Event Binding in Client-Side Scripts
 
 - Scripts can be triggered by events such as page load (onload) or user interactions like clicking a button (onclick).
 - Event handlers define the functions executed when these events occur, enabling dynamic responses to user actions.
+
+---
+
+DOM Overview
+
+- The DOM is a browser-based interface that allows scripts to dynamically access and update the content, structure, and style of web documents.
+- The World Wide Web Consortium (W3C) has released multiple DOM specification levels, with Level 1 being widely supported by browsers.
+
+---
+
+DOM Hierarchy and Key Objects
+
+- The window object sits at the top of the DOM hierarchy, controlling the environment containing the document.
+- Other important objects include history (browser navigation), location (URL info), navigator (browser info), screen (user's display info), and document (access to all HTML elements).
+
+---
+
+DOM Structure and Nodes
+
+- The DOM represents the HTML document as a tree structure with nodes.
+- Nodes include element nodes (HTML tags) and text nodes (text content between tags).
+- Different DOM levels define how detailed the tree is, with Level 2 including whitespace text nodes like line feeds and tabs.
+
+This knowledge helps in understanding how JavaScript interacts with web pages to create dynamic and interactive user experiences.

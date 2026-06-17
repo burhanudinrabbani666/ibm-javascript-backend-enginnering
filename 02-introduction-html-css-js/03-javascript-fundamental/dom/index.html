@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>To-Do List</title>
+        <style>
+            /* Styles the main container of the to-do list */
+            .todo-container {
+                width: 300px;
+                margin: 50px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            /* Removes default list styling for the to-do list */
+            .todo-list {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            /* Styles each list item in the to-do list */
+            li {
+                margin: 10px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* Adds spacing for buttons in list items */
+            button {
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="todo-container">
+            <h1>To-Do List</h1>
+
+            <!-- Input field to add new tasks -->
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Add a new task"
+            />
+
+            <!-- Button to add a new task to the list -->
+            <button class="add-btn" onclick="addTask()">
+                Add Task
+            </button>
+
+            <!-- Unordered list to display the tasks -->
+            <ul class="todo-list" id="todoList"></ul>
+        </div>
+
+        <script>
+            function addTask() {
+                // read input
+                const inputValue =
+                    document.getElementById("taskInput").value;
+
+                if (!inputValue || inputValue === "")
+                    return alert("Invalid Input");
+
+                // create node for showing input
+
+                const taskInputElement =
+                    document.getElementById("taskInput");
+
+                const todoListElement =
+                    document.getElementById("todoList");
+
+                const listElement = document.createElement("li");
+
+                const spanElement = document.createElement("span");
+                spanElement.innerHTML = inputValue.trim();
+
+                const editButtonElement =
+                    document.createElement("button");
+                editButtonElement.textContent = "Edit";
+
+                const deleteButtonElement =
+                    document.createElement("button");
+                deleteButtonElement.textContent = "Delete";
+
+                editButtonElement.onclick = () =>
+                    editTask(spanElement);
+                deleteButtonElement.onclick = () =>
+                    deletTask(listElement);
+
+                listElement.appendChild(spanElement);
+                listElement.appendChild(editButtonElement);
+                listElement.appendChild(deleteButtonElement);
+                todoListElement.appendChild(listElement);
+
+                document.getElementById("todoList").value = "";
+            }
+
+            function editTask(span) {
+                console.log(span);
+                const updatedTask = prompt("edit task:");
+                if (!updatedTask || updatedTask.trim() === "")
+                    return alert("Invalid Input");
+
+                span.textContent = updatedTask.trim();
+            }
+
+            function deletTask(list) {
+                const ulElement = document.getElementById("todoList");
+                ulElement.removeChild(list);
+            }
+        </script>
+    </body>
+</html>
